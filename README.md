@@ -1,5 +1,9 @@
 # Blockly Games
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Deploy](https://img.shields.io/badge/Deploy-Cloudflare_Pages-F38020?logo=cloudflare&logoColor=white)](https://blockly-games.pages.dev)
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?logo=github&logoColor=white)](https://github.com/mars-base/blockly-games)
+
 Google 的可视化编程教育游戏，纯静态部署版本。
 
 ## 项目介绍
@@ -67,7 +71,21 @@ python3 -m http.server 8080
 
 ## 许可证
 
-本项目基于 Apache License 2.0 开源，原作者为 Google LLC。
+Copyright 2012-2024 Google LLC
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+本项目基于 [Apache License 2.0](LICENSE) 开源。
 
 ## 致谢
 
