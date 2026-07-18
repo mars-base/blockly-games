@@ -2,46 +2,46 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Google 的可视化编程教育游戏，纯静态部署版本。
+Educational programming games by Google, built as a static site.
 
-## 项目介绍
+## About
 
-Blockly Games 是由 Google 开发的一系列教育游戏，旨在通过游戏化学习帮助初学者掌握编程基础概念。本项目将其构建为纯静态站点，可部署到 Cloudflare Pages、GitHub Pages 等任意静态托管平台。
+Blockly Games is a series of educational games developed by Google, designed to teach programming fundamentals through interactive gameplay. This project builds it as a pure static site that can be deployed to any static hosting platform.
 
-## 包含的游戏
+## Games
 
-1. **Puzzle（拼图）** - Blockly 积木基础入门
-2. **Maze（迷宫）** - 循环与条件语句
-3. **Bird（鸟）** - 角度与坐标系统
-4. **Music（音乐）** - 音乐创作与编程
-5. **Turtle（海龟）** - 变量与函数
-6. **Movie（电影）** - 动画制作
-7. **Pond Duck（池塘鸭子）** - JavaScript 编程入门
-8. **Pond Tutor（池塘导师）** - 高级 JavaScript 编程
+1. **Puzzle** - Introduction to Blockly blocks
+2. **Maze** - Loops and conditionals
+3. **Bird** - Angles and coordinate systems
+4. **Music** - Music composition with programming
+5. **Turtle** - Variables and functions
+6. **Movie** - Animation creation
+7. **Pond Duck** - Introduction to JavaScript programming
+8. **Pond Tutor** - Advanced JavaScript programming
 
-## 特性
+## Features
 
-- ✅ 支持多语言（中文、英文等 60+ 种语言）
-- ✅ 纯静态部署，无需后端服务器
-- ✅ 所有资源使用绝对路径，适配任意部署路径
-- ✅ 内置"主页"导航按钮
+- ✅ Multi-language support (60+ languages)
+- ✅ Pure static deployment, no backend required
+- ✅ All resources use absolute paths, compatible with any deployment path
+- ✅ Built-in "Home" navigation button
 
-## 本地运行
+## Local Development
 
 ```bash
 python3 -m http.server 8080
 ```
 
-访问 http://localhost:8080
+Visit http://localhost:8080
 
-## 技术栈
+## Tech Stack
 
-- **前端框架**：Blockly（Google 的可视化编程库）
-- **JavaScript 压缩**：Google Closure Compiler
-- **构建工具**：Python 脚本
-- **代码解释**：JS-Interpreter
+- **Frontend**: Blockly (Google's visual programming library)
+- **JavaScript Compression**: Google Closure Compiler
+- **Build Tool**: Python scripts
+- **Code Interpreter**: JS-Interpreter
 
-## 许可证
+## License
 
 Copyright 2012-2024 Google LLC
 
@@ -57,8 +57,8 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 
-本项目基于 [Apache License 2.0](LICENSE) 开源。
+This project is open source under the [Apache License 2.0](LICENSE).
 
-## 致谢
+## Acknowledgements
 
-感谢 Google 开发 Blockly Games 教育项目，让编程学习变得更加有趣和直观。
+Thanks to Google for developing Blockly Games, making programming education more fun and intuitive.
